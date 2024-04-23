@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "522468477910",
+    "project_id": "app4dm",
+    "storage_bucket": "app4dm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522468477910:android:5f6e2ba63e7406934ff277",
+        "android_client_info": {
+          "package_name": "com.appsbig.app4dm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-smoPiTNGeNVwfjpl4JZy5VziyguTLf8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
