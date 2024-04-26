@@ -1,8 +1,12 @@
 package com.appsbig.app4dm
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.widget.AdapterView
+import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Spinner
@@ -28,6 +32,7 @@ class Peliculas : AppCompatActivity() {
 
             val database = FirebaseDatabase.getInstance()
 
+
             val peliculasRef = database.getReference("peliculas")
 
             val peliculaid = peliculasRef.push().key
@@ -44,6 +49,8 @@ class Peliculas : AppCompatActivity() {
                         println("error al guardar la pelicula en Firebase: ${it.message}")
                     }
             }
+            val intent = Intent(this,ListPeliculas::class.java)
+            startActivity(intent)
         }
     }
 }

@@ -3,4 +3,12 @@
     <string name="botonSiguiente">Siguiente</string>
     <string name="op1">Canciones</string>
     <string name="op2">Peliculas</string>
+    <string-array name="generosp">
+        <item>Accion</item>
+        <item>Terror</item>
+        <item>Comedia</item>
+        <item>Romance</item>
+        <item> Ciencia Ficcion</item>
+    </string-array>
+
 </resources>
